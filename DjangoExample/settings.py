@@ -58,12 +58,12 @@ WSGI_APPLICATION = 'DjangoExample.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'DjangoExampleDB',
-        'USER': 'b973a1f9730056',
-        'PASSWORD': 'bad979f3',
-        'HOST': 'eu-cdbr-azure-north-b.cloudapp.net',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': ''
     }
 }
 
